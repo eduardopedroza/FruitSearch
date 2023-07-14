@@ -1,0 +1,62 @@
+* {
+  /* box-sizing: border-box; */
+}
+
+ {
+ /* TODO */
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, rgb(0, 128, 198), rgb(255, 194, 14));
+  overflow: hidden;
+}
+
+input:focus {
+  outline-color: goldenrod;
+}
+
+.search-container {
+  text-align: center;
+}
+
+ul {
+  height: 295px;
+  width: 15rem;
+  position: absolute;
+  list-style: none;
+  margin-top: 0;
+  padding-left: 10px;
+  overflow: hidden;
+  overflow-y: scroll;
+  scrollbar-color: transparent;
+}
+
+
+ul::-webkit-scrollbar  {
+  background-color: transparent;
+}
+
+ul li {
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+
+input {
+  width: 15rem;
+  height: 2rem;
+  background: inherit;
+  border-radius: 5px;
+  border-style: groove;
+  border-color: lightgoldenrodyellow;
+  outline-color: lightgoldenrodyellow;
+  text-align: center;
+}
+
